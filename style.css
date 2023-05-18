@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Lato:wght@700&family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Lobster+Two:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+     margin:12px;
+    justify-items: space-evenly;
+    font-family: "Lato",system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.center-button{
+    text-align: center;
+}
+
+.login-button{
+    background-color: #004cff;
+    color:white;
+    border:none;
+    border-radius: 6px;
+    padding-left:6px;
+    padding-right: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Lato",system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.login-button:hover{
+    background-color: #6200ff;
+}
+
+.dark{
+    background-color: black;
+    color:white;
+}
+
+.light{
+    background-color: white;
+    color:black;
+}
+#darkModebtn{
+    background-color: black;
+    color:white;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border:none;
+    border-radius: 6px;
+}
+
+.learn-button{
+    background-color: red;
+    color:white;
+    border: none;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    font-family: "Lobster Two", "Helvetica Neue", "Helvetica";
+    letter-spacing: 3px;
+}
+
+.view-plans-button{
+    background-color: #a905f5;
+    color:white;
+    border: none;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    font-family: "Lobster Two", "Helvetica Neue", "Helvetica";
+    letter-spacing: 3px;
+}
+.learn-button-container{
+    text-align: center;
+}
+
+.wallpaper{
+    width: 100%;
+    height: auto;
+}
+
+.gym-pic{
+      width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.gym-pic-container{
+    height:350px;
+    width: 600px;
+    margin:10px;
+}
+
+.paragraph-text{
+    font-family: "Roboto",system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: small;
+    margin-bottom:15px;
+}
+
+.paragraph-container{
+    margin-top:25px;
+     width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.footer-container{
+    margin-left:20px;
+    justify-content: space-evenly;
+}
+
+.footer-heading{
+    font-family: 'Lato',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.icon-style{
+ width: 100%;
+  height: auto;
+  justify-content: space-evenly;
+  margin-left:3px;
+  color:white;
+  margin-bottom:10px;
+}
+
+.whatsapp-background{
+    background-color: lime;
+    border-radius: 6px;
+    border:none;
+    padding:10px;
+}
+
+
+.facebook-background{
+    background-color:#0d5dde;
+    border-radius: 6px;
+    border:none;
+    padding:10px;
+}
+
+.instagram-background{
+    background-color: #f50585;
+    border-radius: 6px;
+    border:none;
+    padding:10px;
+}
+
+.twitter-background{
+    background-color: #05cdf5;
+    border-radius: 6px;
+    border:none;
+    padding:10px;
+}
+.icon{
+    font-size:20px;
+}
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
